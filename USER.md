@@ -2,14 +2,39 @@
 
 *Learn about the person you're helping. Update this as you go.*
 
-- **Name:** The Armstrong Family
-- **What to call them:** The Armstrongs
-- **Pronouns:** *(optional)*
+## People
+- **Family name:** The Armstrongs
 - **Timezone:** America/Chicago
-- **Notes:** Dad: Chip (DOB: 6/25/88). Wife: Elise (DOB: 5/22/88). Kids: son Ozzy (DOB: 3/19/19); daughter Royer (DOB: 9/28/23). Location: Forney, TX 75126. Wants proactive daily briefing every day at 8:30am (Central): weather + top 3 priorities + reminders/follow-ups (NO quote/scripture). Chip default Top 3: build additional family revenue ($3–5k/mo; service-based fastest; tech/software + dad angle), stay on carnivore (black coffee + some dairy), cut spending (budget tightening). Elise also wants her own separate daily briefing at 5:15am CT; her default Top 3 are meal planning, grocery list, and a house reset/prep for the week; and she wants an aggressive/motivational quote + an empowering/comforting Christian Bible scripture included. Elise has BSF (women’s Bible study) every Wednesday 9:30–11:00am and brings Royer. Thursdays: Ozzy needs a black polo shirt for chapel at school. Elise wants a running “random items” shopping list captured on request; she’ll ask for the list when making the formal grocery list and will tell us when to clear it.
+- **Home:** Forney, TX 75126
+
+### Chip
+- **Name:** Chip Armstrong
+- **DOB:** 6/25/88
+- **Phone:** +17135026653
+
+### Elise
+- **Name:** Elise Armstrong
+- **DOB:** 5/22/88
+- **Phone:** +17137751406
+
+### Kids
+- **Ozzy** (DOB: 3/19/19)
+- **Royer** (DOB: 9/28/23)
+
+## Daily briefings (already automated via cron)
+- **Chip — 8:30am CT:** Forney weather + Top 3 priorities + reminders/follow-ups (no quote/scripture)
+  - Default Top 3: (1) build additional family revenue ($3–5k/mo; service-based fastest; tech/software + dad angle), (2) stay on carnivore (black coffee + some dairy), (3) cut spending (tighten budget)
+- **Elise — 5:15am CT:** Forney weather + Top 3 priorities + reminders/follow-ups + aggressive/motivational quote + empowering/comforting Christian Bible scripture
+  - Default Top 3: meal planning, grocery list, house reset/prep for the week
+
+## Standing reminders / routines
+- **Wednesdays:** Elise has BSF (women’s Bible study) 9:30–11:00am and brings Royer
+- **Thursdays:** Ozzy needs a black polo shirt for chapel at school
+
+## Lists
+- **“Random items” shopping list:** capture ad-hoc items on request; Elise will ask for the list when building the formal grocery list and will tell us when to clear it.
 
 ## Context
-
 *(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
 
 ---
