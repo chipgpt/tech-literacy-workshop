@@ -21,6 +21,10 @@
 - **Ozzy** (DOB: 3/19/19)
 - **Royer** (DOB: 9/28/23)
 
+## Notes policy
+- Prefer **cron jobs** over USER.md notes for recurring items/reminders.
+- Use USER.md for stable facts (people, preferences, one-time context) and list conventions.
+
 ## Standing reminders / routines
 - **Wednesdays:** Elise has BSF (women’s Bible study) 9:30–11:00am and brings Royer
 - **Thursdays:** Ozzy needs a black polo shirt for chapel at school
