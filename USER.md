@@ -25,6 +25,9 @@
 - Prefer **cron jobs** over USER.md notes for recurring items/reminders.
 - Use USER.md for stable facts (people, preferences, one-time context) and list conventions.
 
+## Preferences
+- **External actions:** If clearly expressed in the prompt (e.g., “text Elise…”), go ahead; otherwise ask before doing anything that leaves the machine.
+
 ## Standing reminders / routines
 - **Wednesdays:** Elise has BSF (women’s Bible study) 9:30–11:00am and brings Royer
 - **Thursdays:** Ozzy needs a black polo shirt for chapel at school
