@@ -21,12 +21,6 @@
 - **Ozzy** (DOB: 3/19/19)
 - **Royer** (DOB: 9/28/23)
 
-## Daily briefings (already automated via cron)
-- **Chip — 8:30am CT:** Forney weather + Top 3 priorities + reminders/follow-ups (no quote/scripture)
-  - Default Top 3: (1) build additional family revenue ($3–5k/mo; service-based fastest; tech/software + dad angle), (2) stay on carnivore (black coffee + some dairy), (3) cut spending (tighten budget)
-- **Elise — 5:15am CT:** Forney weather + Top 3 priorities + reminders/follow-ups + aggressive/motivational quote + empowering/comforting Christian Bible scripture
-  - Default Top 3: meal planning, grocery list, house reset/prep for the week
-
 ## Standing reminders / routines
 - **Wednesdays:** Elise has BSF (women’s Bible study) 9:30–11:00am and brings Royer
 - **Thursdays:** Ozzy needs a black polo shirt for chapel at school
