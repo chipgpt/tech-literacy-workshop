@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "business": "Bragg HVAC",
+    "angle": "1-missed-call",
+    "to": "bragghvactx@gmail.com",
+    "subject": "Quick question, Bragg HVAC",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-03/email01_Bragg HVAC.txt"
+  },
+  {
+    "n": 2,
+    "business": "Premier HVAC Services",
+    "angle": "2-after-hours",
+    "to": "markw@premierhvacservicesllc.com",
+    "subject": "After-hours calls at Premier HVAC Services",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-03/email02_Premier HVAC Services.txt"
+  },
+  {
+    "n": 3,
+    "business": "GreenTech DFW",
+    "angle": "4-clean-summary",
+    "to": "lucas.chen@greentechdfw.com",
+    "subject": "Quick question, GreenTech DFW",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-03/email03_GreenTech DFW.txt"
+  },
+  {
+    "n": 4,
+    "business": "TexSun Heat & Air Inc.",
+    "angle": "5-website-form",
+    "to": "texsunhvac@gmail.com",
+    "subject": "Quick question about your website leads",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-03/email04_TexSun Heat & Air Inc..txt"
+  },
+  {
+    "n": 5,
+    "business": "Burton Heat and Air",
+    "angle": "1-missed-call",
+    "to": "service@burtonheatandair.com",
+    "subject": "Quick question, Burton Heat and Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-03/email05_Burton Heat and Air.txt"
+  }
+]

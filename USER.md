@@ -39,6 +39,12 @@
 ## Context
 *(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
 
+### Projects / initiatives
+- **Generate Revenue initiative → HVAC lead intake + booking sprint**
+  - Workspace: `workspace/revenue-hvac/`
+  - Goal: close 1–2 pilot clients for an “AI Lead Intake + Booking” offer in the Forney/Rockwall area.
+  - Tracking files: `leads.csv` (pipeline), `email_templates.md` (outreach templates).
+
 ---
 
 The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

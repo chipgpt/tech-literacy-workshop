@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg { fill: #0b0f1a; }
+      .title { fill: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 700; }
+      .subtitle { fill: #b7c0d8; font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+      .hdr { fill: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; }
+      .box { fill: #131a2a; stroke: #2a3554; stroke-width: 2; rx: 10; }
+      .team { fill: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 15px; }
+      .seed { fill: #b7c0d8; font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+      .score { fill: #7fe7a5; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; }
+      .line { stroke: #2a3554; stroke-width: 3; }
+      .note { fill: #b7c0d8; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="900"/>
+
+  <text class="title" x="700" y="48" text-anchor="middle">NFL Playoff Bracket (2025–26)</text>
+  <text class="subtitle" x="700" y="74" text-anchor="middle">As of 2026-01-31 • Source: Wikipedia (2025–26 NFL playoffs)</text>
+
+  <!-- Headers -->
+  <text class="hdr" x="220" y="120" text-anchor="middle">AFC</text>
+  <text class="hdr" x="1180" y="120" text-anchor="middle">NFC</text>
+  <text class="hdr" x="700" y="120" text-anchor="middle">Super Bowl LX</text>
+
+  <!-- AFC: Wild Card -->
+  <text class="subtitle" x="70" y="160">Wild Card</text>
+  <g>
+    <rect class="box" x="40" y="175" width="360" height="62"/>
+    <text class="seed" x="55" y="202">(2) NE</text>
+    <text class="team" x="125" y="202">Patriots</text>
+    <text class="score" x="360" y="202" text-anchor="end">16–3</text>
+    <text class="seed" x="55" y="223">(7) LAC</text>
+    <text class="team" x="125" y="223">Chargers</text>
+  </g>
+  <g>
+    <rect class="box" x="40" y="255" width="360" height="62"/>
+    <text class="seed" x="55" y="282">(3) JAX</text>
+    <text class="team" x="125" y="282">Jaguars</text>
+    <text class="score" x="360" y="282" text-anchor="end">24–27</text>
+    <text class="seed" x="55" y="303">(6) BUF</text>
+    <text class="team" x="125" y="303">Bills</text>
+  </g>
+  <g>
+    <rect class="box" x="40" y="335" width="360" height="62"/>
+    <text class="seed" x="55" y="362">(4) PIT</text>
+    <text class="team" x="125" y="362">Steelers</text>
+    <text class="score" x="360" y="362" text-anchor="end">6–30</text>
+    <text class="seed" x="55" y="383">(5) HOU</text>
+    <text class="team" x="125" y="383">Texans</text>
+  </g>
+
+  <!-- AFC: Divisional -->
+  <text class="subtitle" x="470" y="160">Divisional</text>
+  <g>
+    <rect class="box" x="440" y="215" width="360" height="62"/>
+    <text class="seed" x="455" y="242">(1) DEN</text>
+    <text class="team" x="545" y="242">Broncos</text>
+    <text class="score" x="760" y="242" text-anchor="end">33–30 (OT)</text>
+    <text class="seed" x="455" y="263">(6) BUF</text>
+    <text class="team" x="545" y="263">Bills</text>
+  </g>
+  <g>
+    <rect class="box" x="440" y="315" width="360" height="62"/>
+    <text class="seed" x="455" y="342">(2) NE</text>
+    <text class="team" x="545" y="342">Patriots</text>
+    <text class="score" x="760" y="342" text-anchor="end">28–16</text>
+    <text class="seed" x="455" y="363">(5) HOU</text>
+    <text class="team" x="545" y="363">Texans</text>
+  </g>
+
+  <!-- AFC Championship -->
+  <text class="subtitle" x="470" y="430">AFC Championship</text>
+  <g>
+    <rect class="box" x="440" y="445" width="360" height="62"/>
+    <text class="seed" x="455" y="472">(1) DEN</text>
+    <text class="team" x="545" y="472">Broncos</text>
+    <text class="score" x="760" y="472" text-anchor="end">7–10</text>
+    <text class="seed" x="455" y="493">(2) NE</text>
+    <text class="team" x="545" y="493">Patriots</text>
+  </g>
+
+  <!-- NFC: Wild Card -->
+  <text class="subtitle" x="1010" y="160">Wild Card</text>
+  <g>
+    <rect class="box" x="1000" y="175" width="360" height="62"/>
+    <text class="seed" x="1015" y="202">(2) CHI</text>
+    <text class="team" x="1105" y="202">Bears</text>
+    <text class="score" x="1320" y="202" text-anchor="end">31–27</text>
+    <text class="seed" x="1015" y="223">(7) GB</text>
+    <text class="team" x="1105" y="223">Packers</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="255" width="360" height="62"/>
+    <text class="seed" x="1015" y="282">(3) PHI</text>
+    <text class="team" x="1105" y="282">Eagles</text>
+    <text class="score" x="1320" y="282" text-anchor="end">19–23</text>
+    <text class="seed" x="1015" y="303">(6) SF</text>
+    <text class="team" x="1105" y="303">49ers</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="335" width="360" height="62"/>
+    <text class="seed" x="1015" y="362">(4) CAR</text>
+    <text class="team" x="1105" y="362">Panthers</text>
+    <text class="score" x="1320" y="362" text-anchor="end">31–34</text>
+    <text class="seed" x="1015" y="383">(5) LAR</text>
+    <text class="team" x="1105" y="383">Rams</text>
+  </g>
+
+  <!-- NFC: Divisional -->
+  <text class="subtitle" x="930" y="160">Divisional</text>
+  <g>
+    <rect class="box" x="600" y="215" width="360" height="62"/>
+    <text class="seed" x="615" y="242">(1) SEA</text>
+    <text class="team" x="705" y="242">Seahawks</text>
+    <text class="score" x="920" y="242" text-anchor="end">41–6</text>
+    <text class="seed" x="615" y="263">(6) SF</text>
+    <text class="team" x="705" y="263">49ers</text>
+  </g>
+  <g>
+    <rect class="box" x="600" y="315" width="360" height="62"/>
+    <text class="seed" x="615" y="342">(2) CHI</text>
+    <text class="team" x="705" y="342">Bears</text>
+    <text class="score" x="920" y="342" text-anchor="end">17–20 (OT)</text>
+    <text class="seed" x="615" y="363">(5) LAR</text>
+    <text class="team" x="705" y="363">Rams</text>
+  </g>
+
+  <!-- NFC Championship -->
+  <text class="subtitle" x="930" y="430">NFC Championship</text>
+  <g>
+    <rect class="box" x="600" y="445" width="360" height="62"/>
+    <text class="seed" x="615" y="472">(1) SEA</text>
+    <text class="team" x="705" y="472">Seahawks</text>
+    <text class="score" x="920" y="472" text-anchor="end">31–27</text>
+    <text class="seed" x="615" y="493">(5) LAR</text>
+    <text class="team" x="705" y="493">Rams</text>
+  </g>
+
+  <!-- Super Bowl -->
+  <g>
+    <rect class="box" x="520" y="580" width="360" height="82"/>
+    <text class="team" x="700" y="612" text-anchor="middle">Seattle Seahawks vs New England Patriots</text>
+    <text class="subtitle" x="700" y="636" text-anchor="middle">Super Bowl LX • Feb 8, 2026 • Levi’s Stadium</text>
+    <text class="note" x="700" y="658" text-anchor="middle">(Score TBD)</text>
+  </g>
+
+  <!-- Minimal connectors -->
+  <line class="line" x1="400" y1="206" x2="440" y2="246"/>
+  <line class="line" x1="400" y1="286" x2="440" y2="246"/>
+  <line class="line" x1="400" y1="366" x2="440" y2="346"/>
+  <line class="line" x1="800" y1="246" x2="860" y2="476" opacity="0"/>
+
+  <line class="line" x1="440" y1="246" x2="440" y2="476"/>
+  <line class="line" x1="440" y1="246" x2="440" y2="246"/>
+  <line class="line" x1="440" y1="346" x2="440" y2="476"/>
+  <line class="line" x1="440" y1="476" x2="520" y2="621"/>
+
+  <line class="line" x1="1000" y1="206" x2="960" y2="346"/>
+  <line class="line" x1="1000" y1="286" x2="960" y2="246"/>
+  <line class="line" x1="1000" y1="366" x2="960" y2="346"/>
+
+  <line class="line" x1="960" y1="246" x2="960" y2="476"/>
+  <line class="line" x1="960" y1="346" x2="960" y2="476"/>
+  <line class="line" x1="960" y1="476" x2="880" y2="621"/>
+
+</svg>
