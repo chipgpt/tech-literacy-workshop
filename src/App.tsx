@@ -400,6 +400,7 @@ export default function App() {
                 <li>Systems and automation: simple steps can look “smart.”</li>
                 <li>Data basics: what information tools collect and why it matters.</li>
                 <li>Family rules that reduce conflict and protect attention.</li>
+                <li>AI basics (kid-safe): why it can look smart, and how to use it safely.</li>
               </ul>
             </Card>
             <Card title="Take-home outcomes">
