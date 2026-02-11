@@ -363,8 +363,8 @@ export default function App() {
             <Card title="Parent + child (no drop-off)">
               Families participate together. That’s the whole point.
             </Card>
-            <Card title="Faith-neutral">
-              Content is faith-neutral and family-values-first.
+            <Card title="No lectures">
+              This isn’t a scare talk or a screen-shaming session—it's practical and calm.
             </Card>
             <Card title="Small group">
               10 kids max so discussion stays human and kids stay engaged.
