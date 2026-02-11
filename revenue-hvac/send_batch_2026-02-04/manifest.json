@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "business": "5 Star HVAC",
+    "angle": "1-missed-call",
+    "to": "support@5starhvaccontractors.com",
+    "subject": "Quick question, 5 Star HVAC",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email01_5 Star HVAC.txt"
+  },
+  {
+    "n": 2,
+    "business": "A/C & Heating Installation Team",
+    "angle": "2-after-hours",
+    "to": "acheatingteam@gmail.com",
+    "subject": "After-hours calls at A/C & Heating Installation Team",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email02_AC  Heating Installation Team.txt"
+  },
+  {
+    "n": 3,
+    "business": "Aire Serv of Rockwall",
+    "angle": "4-clean-summary",
+    "to": "dallas.tx@aireservdallas.com",
+    "subject": "Quick question, Aire Serv of Rockwall",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email03_Aire Serv of Rockwall.txt"
+  },
+  {
+    "n": 4,
+    "business": "Apple AC & Heat Services",
+    "angle": "5-website-form",
+    "to": "john@appleacheat.com",
+    "subject": "Quick question about your website leads",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email04_Apple AC  Heat Services.txt"
+  },
+  {
+    "n": 5,
+    "business": "Arthur Heating & Air",
+    "angle": "1-missed-call",
+    "to": "info@callarthurair.com",
+    "subject": "Quick question, Arthur Heating & Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email05_Arthur Heating  Air.txt"
+  },
+  {
+    "n": 6,
+    "business": "Greenstar Heating & Cooling",
+    "angle": "2-after-hours",
+    "to": "greenstarheatingandair@gmail.com",
+    "subject": "After-hours calls at Greenstar Heating & Cooling",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email06_Greenstar Heating  Cooling.txt"
+  },
+  {
+    "n": 7,
+    "business": "Honea Central Air",
+    "angle": "4-clean-summary",
+    "to": "honea1@sbcglobal.net",
+    "subject": "Quick question, Honea Central Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email07_Honea Central Air.txt"
+  },
+  {
+    "n": 8,
+    "business": "Martin Heating & Air",
+    "angle": "5-website-form",
+    "to": "service@martinairandheat.com",
+    "subject": "Quick question about your website leads",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email08_Martin Heating  Air.txt"
+  },
+  {
+    "n": 9,
+    "business": "Milestone Home Service Co.",
+    "angle": "1-missed-call",
+    "to": "contact-us@callmilestone.com",
+    "subject": "Quick question, Milestone Home Service Co.",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email09_Milestone Home Service Co..txt"
+  },
+  {
+    "n": 10,
+    "business": "Moore A/C & Heating Services, Inc.",
+    "angle": "2-after-hours",
+    "to": "info@moorecomfort.com",
+    "subject": "After-hours calls at Moore A/C & Heating Services, Inc.",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-04/email10_Moore AC  Heating Services Inc..txt"
+  }
+]

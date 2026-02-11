@@ -20,7 +20,7 @@ Create `/home/otothea/.openclaw/.env` with:
 Uses **TypeScript** via `tsx`.
 
 ```bash
-npx --yes tsx /home/otothea/.openclaw/workspace/revenue-hvac/skills/mailgun-email/scripts/send_mailgun.ts \
+npx --yes tsx /home/otothea/.openclaw/workspace/skills/mailgun-email/scripts/send_mailgun.ts \
   --to "someone@example.com" \
   --subject "Quick question" \
   --text-file /path/to/body.txt
@@ -31,7 +31,7 @@ npx --yes tsx /home/otothea/.openclaw/workspace/revenue-hvac/skills/mailgun-emai
 Uses `Email` column by default, falling back to `ContactEmail`. Supports `{BusinessName}` and `{Name}` placeholders.
 
 ```bash
-npx --yes tsx /home/otothea/.openclaw/workspace/revenue-hvac/skills/mailgun-email/scripts/send_mailgun.ts \
+npx --yes tsx /home/otothea/.openclaw/workspace/skills/mailgun-email/scripts/send_mailgun.ts \
   --csv /home/otothea/.openclaw/workspace/revenue-hvac/leads.csv \
   --subject "Quick question, {BusinessName}" \
   --text-file /home/otothea/.openclaw/workspace/revenue-hvac/templates/email1.txt \
@@ -41,7 +41,7 @@ npx --yes tsx /home/otothea/.openclaw/workspace/revenue-hvac/skills/mailgun-emai
 ### Dry run
 
 ```bash
-npx --yes tsx /home/otothea/.openclaw/workspace/revenue-hvac/skills/mailgun-email/scripts/send_mailgun.ts \
+npx --yes tsx /home/otothea/.openclaw/workspace/skills/mailgun-email/scripts/send_mailgun.ts \
   --csv /home/otothea/.openclaw/workspace/revenue-hvac/leads.csv \
   --subject "Quick question, {BusinessName}" \
   --text-file /home/otothea/.openclaw/workspace/revenue-hvac/templates/email1.txt \

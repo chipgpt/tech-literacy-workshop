@@ -1,0 +1,92 @@
+[
+  {
+    "n": 1,
+    "business": "5 Star HVAC",
+    "angle": "followup-48h",
+    "to": "support@5starhvaccontractors.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email01_5 Star HVAC.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email01_5 Star HVAC_body.txt"
+  },
+  {
+    "n": 2,
+    "business": "Honea Central Air",
+    "angle": "followup-48h",
+    "to": "honea1@sbcglobal.net",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email02_Honea Central Air.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email02_Honea Central Air_body.txt"
+  },
+  {
+    "n": 3,
+    "business": "Apple AC & Heat Services",
+    "angle": "followup-48h",
+    "to": "john@appleacheat.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email03_Apple AC Heat Services.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email03_Apple AC Heat Services_body.txt"
+  },
+  {
+    "n": 4,
+    "business": "Milestone Home Service Co.",
+    "angle": "followup-48h",
+    "to": "contact-us@callmilestone.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email04_Milestone Home Service Co.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email04_Milestone Home Service Co_body.txt"
+  },
+  {
+    "n": 5,
+    "business": "Martin Heating & Air",
+    "angle": "followup-48h",
+    "to": "service@martinairandheat.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email05_Martin Heating Air.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email05_Martin Heating Air_body.txt"
+  },
+  {
+    "n": 6,
+    "business": "Moore A/C & Heating Services, Inc.",
+    "angle": "followup-48h",
+    "to": "info@moorecomfort.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email06_Moore A C Heating Services Inc.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email06_Moore A C Heating Services Inc_body.txt"
+  },
+  {
+    "n": 7,
+    "business": "Aire Serv of Rockwall",
+    "angle": "followup-48h",
+    "to": "dallas.tx@aireservdallas.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email07_Aire Serv of Rockwall.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email07_Aire Serv of Rockwall_body.txt"
+  },
+  {
+    "n": 8,
+    "business": "A/C & Heating Installation Team",
+    "angle": "followup-48h",
+    "to": "acheatingteam@gmail.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email08_A C Heating Installation Team.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email08_A C Heating Installation Team_body.txt"
+  },
+  {
+    "n": 9,
+    "business": "Arthur Heating & Air",
+    "angle": "followup-48h",
+    "to": "info@callarthurair.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email09_Arthur Heating Air.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email09_Arthur Heating Air_body.txt"
+  },
+  {
+    "n": 10,
+    "business": "Greenstar Heating & Cooling",
+    "angle": "followup-48h",
+    "to": "greenstarheatingandair@gmail.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email10_Greenstar Heating Cooling.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-07/email10_Greenstar Heating Cooling_body.txt"
+  }
+]

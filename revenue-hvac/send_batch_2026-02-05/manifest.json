@@ -1,0 +1,138 @@
+[
+  {
+    "n": 1,
+    "business": "Bragg HVAC",
+    "angle": "followup-48h",
+    "to": "bragghvactx@gmail.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email01_Bragg HVAC.txt"
+  },
+  {
+    "n": 2,
+    "business": "Premier HVAC Services",
+    "angle": "followup-48h",
+    "to": "markw@premierhvacservicesllc.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email02_Premier HVAC Services.txt"
+  },
+  {
+    "n": 3,
+    "business": "GreenTech DFW",
+    "angle": "followup-48h",
+    "to": "lucas.chen@greentechdfw.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email03_GreenTech DFW.txt"
+  },
+  {
+    "n": 4,
+    "business": "TexSun Heat & Air Inc.",
+    "angle": "followup-48h",
+    "to": "texsunhvac@gmail.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email04_TexSun Heat Air Inc.txt"
+  },
+  {
+    "n": 5,
+    "business": "Burton Heat and Air",
+    "angle": "followup-48h",
+    "to": "service@burtonheatandair.com",
+    "subject": "Re: quick question",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email05_Burton Heat and Air.txt"
+  },
+  {
+    "n": 6,
+    "business": "Patriot Comfort Services",
+    "angle": "cold-email1",
+    "to": "contact@patriotcomfortservices.com",
+    "subject": "After-hours calls at Patriot Comfort Services",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email06_Patriot Comfort Services.txt"
+  },
+  {
+    "n": 7,
+    "business": "Willard Cooling Heating Plumbing & Electrical",
+    "angle": "cold-email1",
+    "to": "info@willardac.com",
+    "subject": "After-hours calls at Willard Cooling Heating Plumbing & Electrical",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email07_Willard Cooling Heating Plumbing Electrical.txt"
+  },
+  {
+    "n": 8,
+    "business": "One Hour Heating & Air Conditioning (Mesquite/Forney)",
+    "angle": "cold-email1",
+    "to": "rajesh.george@onehourair.com",
+    "subject": "After-hours calls at One Hour Heating & Air Conditioning (Mesquite/Forney)",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email08_One Hour Heating Air Conditioning Mesquite Forney.txt"
+  },
+  {
+    "n": 9,
+    "business": "Xtreme Air Services",
+    "angle": "cold-email1",
+    "to": "servicetoday@xtremeairservices.com",
+    "subject": "After-hours calls at Xtreme Air Services",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email09_Xtreme Air Services.txt"
+  },
+  {
+    "n": 10,
+    "business": "Swan Electric, Plumbing, Heating & Air",
+    "angle": "cold-email1",
+    "to": "dispatch@callswan.com",
+    "subject": "After-hours calls at Swan Electric, Plumbing, Heating & Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email10_Swan Electric Plumbing Heating Air.txt"
+  },
+  {
+    "n": 11,
+    "business": "Tempo Air",
+    "angle": "cold-email1",
+    "to": "info@tempoair.com",
+    "subject": "After-hours calls at Tempo Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email11_Tempo Air.txt"
+  },
+  {
+    "n": 12,
+    "business": "A#1 Air",
+    "angle": "cold-email1",
+    "to": "info@anumber1air.com",
+    "subject": "After-hours calls at A#1 Air",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email12_A 1 Air.txt"
+  },
+  {
+    "n": 13,
+    "business": "On the Spot HVAC",
+    "angle": "cold-email1",
+    "to": "info@onthespothvac.com",
+    "subject": "After-hours calls at On the Spot HVAC",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email13_On the Spot HVAC.txt"
+  },
+  {
+    "n": 14,
+    "business": "StevenSons Heating & Air Conditioning, Inc.",
+    "angle": "cold-email1",
+    "to": "tina@stevensonshvac.com",
+    "subject": "After-hours calls at StevenSons Heating & Air Conditioning, Inc.",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email14_StevenSons Heating Air Conditioning Inc.txt"
+  },
+  {
+    "n": 15,
+    "business": "Spencer Air Conditioning & Heating",
+    "angle": "cold-email1",
+    "to": "service@spencerairconditioning.com",
+    "subject": "After-hours calls at Spencer Air Conditioning & Heating",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email15_Spencer Air Conditioning Heating.txt"
+  },
+  {
+    "n": 16,
+    "business": "System Control Air Conditioning & Heating",
+    "angle": "cold-email1",
+    "to": "raneely@sbcglobal.net",
+    "subject": "After-hours calls at System Control Air Conditioning & Heating",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email16_System Control Air Conditioning Heating.txt"
+  },
+  {
+    "n": 17,
+    "business": "Phillips AC and Heating",
+    "angle": "cold-email1",
+    "to": "phillipsairheat@gmail.com",
+    "subject": "After-hours calls at Phillips AC and Heating",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-05/email17_Phillips AC and Heating.txt"
+  }
+]

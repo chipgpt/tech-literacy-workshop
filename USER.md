@@ -29,10 +29,6 @@
 - **External actions:** If clearly expressed in the prompt (e.g., “text Elise…”), go ahead; otherwise ask before doing anything that leaves the machine.
 - **Per-person focus:** Keep Chip vs Elise reminders/notes segmented; only send each person what they need.
 
-## Standing reminders / routines
-- **Wednesdays:** Elise has BSF (women’s Bible study) 9:30–11:00am and brings Royer
-- **Thursdays:** Ozzy needs a black polo shirt for chapel at school
-
 ## Lists
 - **“Random items” shopping list:** capture ad-hoc items on request; Elise will ask for the list when building the formal grocery list and will tell us when to clear it.
 

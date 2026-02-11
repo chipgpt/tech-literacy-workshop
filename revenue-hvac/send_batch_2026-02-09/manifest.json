@@ -1,0 +1,47 @@
+[
+  {
+    "n": 1,
+    "business": "Bragg HVAC",
+    "angle": "final-bump",
+    "to": "bragghvactx@gmail.com",
+    "subject": "Close the loop?",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email01_Bragg HVAC.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email01_Bragg HVAC_body.txt"
+  },
+  {
+    "n": 2,
+    "business": "Premier HVAC Services",
+    "angle": "final-bump",
+    "to": "markw@premierhvacservicesllc.com",
+    "subject": "Close the loop?",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email02_Premier HVAC Services.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email02_Premier HVAC Services_body.txt"
+  },
+  {
+    "n": 3,
+    "business": "GreenTech DFW",
+    "angle": "final-bump",
+    "to": "lucas.chen@greentechdfw.com",
+    "subject": "Close the loop?",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email03_GreenTech DFW.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email03_GreenTech DFW_body.txt"
+  },
+  {
+    "n": 4,
+    "business": "TexSun Heat & Air Inc.",
+    "angle": "final-bump",
+    "to": "texsunhvac@gmail.com",
+    "subject": "Close the loop?",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email04_TexSun Heat Air Inc.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email04_TexSun Heat Air Inc_body.txt"
+  },
+  {
+    "n": 5,
+    "business": "Burton Heat and Air",
+    "angle": "final-bump",
+    "to": "service@burtonheatandair.com",
+    "subject": "Close the loop?",
+    "body_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email05_Burton Heat and Air.txt",
+    "text_file": "/home/otothea/.openclaw/workspace/revenue-hvac/send_batch_2026-02-09/email05_Burton Heat and Air_body.txt"
+  }
+]
