@@ -163,10 +163,6 @@ export default function App() {
       a: "Designed for kids ages ~4–10. Parents can adapt the same ideas for older siblings too.",
     },
     {
-      q: "Is this faith-based?",
-      a: "No—this workshop is faith-neutral and values-first (you set your family values).",
-    },
-    {
       q: "What if we miss a week?",
       a: "We’ll do our best to share the take-home materials. A makeup date is planned for Mar 29, 2026 if needed.",
     },
@@ -228,7 +224,25 @@ export default function App() {
 
       {/* Hero */}
       <main>
-        <div className="relative overflow-hidden">
+        {/* #7: mobile sticky CTA */}
+        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-slate-950/85 p-3 backdrop-blur md:hidden">
+          <Container className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="truncate text-sm font-semibold">Family Tech Literacy Workshop</p>
+              <p className="truncate text-xs text-white/60">Sundays in March 2026 • 2pm</p>
+            </div>
+            <a
+              href="#cta"
+              className="shrink-0 rounded-xl bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950"
+            >
+              Join
+            </a>
+          </Container>
+        </div>
+
+        {/* give room so content isn’t hidden behind the mobile bar */}
+        <div className="pb-20 md:pb-0">
+          <div className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 opacity-70">
             <div className="absolute -top-24 left-1/2 h-72 w-[44rem] -translate-x-1/2 rounded-full bg-sky-500/20 blur-3xl" />
             <div className="absolute -bottom-24 right-0 h-72 w-[44rem] translate-x-1/3 rounded-full bg-indigo-500/20 blur-3xl" />
@@ -248,6 +262,11 @@ export default function App() {
               <p className="mt-5 text-base leading-relaxed text-white/80 sm:text-lg">
                 A calm, practical workshop for families to build shared language around tools, systems,
                 automation, and interfaces—so you can make confident choices together.
+              </p>
+
+              {/* #2: fast decision info */}
+              <p className="mt-4 text-sm text-white/70">
+                Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling • 10 kids max
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -314,6 +333,24 @@ export default function App() {
                 <li>A shared set of boundary defaults (accounts, apps, autoplay, etc.).</li>
                 <li>Practical language to de-escalate screen arguments.</li>
               </ul>
+            </Card>
+          </div>
+        </Section>
+
+        {/* #4: week-by-week */}
+        <Section id="weeks" eyebrow="4 sessions" title="Week-by-week">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <Card title="Week 1: Tools made by people">
+              Tech is a tool with a job. Build your Family Tech Values Card.
+            </Card>
+            <Card title="Week 2: Systems & automation">
+              How simple steps create “smart.” Spot inputs → rules → outputs.
+            </Card>
+            <Card title="Week 3: Data & accounts">
+              Kid-safe basics on data, logins, and why “default settings” matter.
+            </Card>
+            <Card title="Week 4: Interfaces & habits">
+              Design choices shape behavior. Build calm boundaries that stick.
             </Card>
           </div>
         </Section>
@@ -412,6 +449,7 @@ export default function App() {
             </footer>
           </Container>
         </section>
+          </div>
       </main>
     </div>
   );
