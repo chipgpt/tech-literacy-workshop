@@ -249,45 +249,120 @@ export default function App() {
           </div>
 
           <Container className="relative py-14 sm:py-20">
-            <div className="max-w-3xl">
-              <div className="flex flex-wrap gap-2">
-                <Badge>4-week series</Badge>
-                <Badge>Parent + child</Badge>
-                <Badge>Minimal screens</Badge>
+            <div className="grid items-center gap-10 lg:grid-cols-2">
+              <div>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>4-week series</Badge>
+                  <Badge>Dad + daughter friendly</Badge>
+                  <Badge>Minimal screens</Badge>
+                </div>
+
+                <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
+                  Raise tech-literate kids—without screens running the home.
+                </h1>
+                <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
+                  Calm, hands-on tech literacy for families: tools, systems, automation, and interfaces.
+                </p>
+
+                {/* #2: fast decision info */}
+                <p className="mt-4 text-sm text-white/70">
+                  Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling • 10 kids max
+                </p>
+
+                <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+                  <PrimaryButton href="#cta" label="Join the interest list" />
+                  <SecondaryButton href="#schedule" label="See dates" />
+                </div>
+
+                <div className="mt-9 grid gap-4 sm:grid-cols-3">
+                  <Card title="Where">Rockwall / Rowlett / Forney area (final venue TBD)</Card>
+                  <Card title="When">Sundays • 2:00–3:15pm</Card>
+                  <Card title="Format">Parent + child (no drop-off)</Card>
+                </div>
               </div>
 
-              <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
-                Raise tech-literate kids—without screens running the home.
-              </h1>
-              <p className="mt-5 text-base leading-relaxed text-white/80 sm:text-lg">
-                A calm, practical workshop for families to build shared language around tools, systems,
-                automation, and interfaces—so you can make confident choices together.
-              </p>
-
-              {/* #2: fast decision info */}
-              <p className="mt-4 text-sm text-white/70">
-                Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling • 10 kids max
-              </p>
-
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-                <PrimaryButton href="#cta" label="Join the interest list" />
-                <SecondaryButton href="#schedule" label="See dates" />
-              </div>
-
-              <div className="mt-10 grid gap-4 sm:grid-cols-3">
-                <Card title="Where">
-                  Rockwall / Rowlett / Forney area (final venue TBD)
-                </Card>
-                <Card title="When">
-                  Sundays in March 2026 • 2:00–3:15pm
-                </Card>
-                <Card title="Capacity">
-                  10 kids max (plus parents)
-                </Card>
+              <div className="lg:justify-self-end">
+                <figure className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-sm">
+                  <img
+                    src="/tech-literacy-workshop/placeholder-hero.svg"
+                    alt="Workshop photo placeholder"
+                    className="h-auto w-full"
+                    loading="lazy"
+                  />
+                </figure>
+                <p className="mt-3 text-xs text-white/55">
+                  Placeholder image — swap with a real photo (dad + daughter, hands-on activity, no screens).
+                </p>
               </div>
             </div>
           </Container>
         </div>
+
+        {/* Human touch: photo strip */}
+        <section aria-label="Workshop photos" className="py-10">
+          <Container>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <img
+                  src="/tech-literacy-workshop/placeholder-strip-1.svg"
+                  alt="Placeholder: hands-on activity"
+                  className="h-auto w-full"
+                  loading="lazy"
+                />
+              </figure>
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <img
+                  src="/tech-literacy-workshop/placeholder-strip-2.svg"
+                  alt="Placeholder: dad and daughter at table"
+                  className="h-auto w-full"
+                  loading="lazy"
+                />
+              </figure>
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <img
+                  src="/tech-literacy-workshop/placeholder-strip-3.svg"
+                  alt="Placeholder: values card"
+                  className="h-auto w-full"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+            <p className="mt-3 text-xs text-white/55">
+              Photo placeholders — we’ll swap in real workshop images.
+            </p>
+          </Container>
+        </section>
+
+        {/* Human touch: instructor */}
+        <Section id="led" eyebrow="Your guide" title="Led by Chip">
+          <div className="grid gap-6 md:grid-cols-[0.35fr_0.65fr] md:items-start">
+            <div>
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <img
+                  src="/tech-literacy-workshop/placeholder-chip.svg"
+                  alt="Headshot placeholder"
+                  className="h-auto w-full"
+                  loading="lazy"
+                />
+              </div>
+              <p className="mt-2 text-xs text-white/55">Headshot placeholder</p>
+            </div>
+            <div className="max-w-2xl text-white/80">
+              <p className="text-base">
+                I built this workshop for families who want confidence—not conflict—around technology.
+                No shame. No panic. Just a simple, repeatable way to decide what tools belong in your home.
+              </p>
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm">
+                <li><span className="font-semibold text-white">Hands-on:</span> kids stay engaged without needing screens.</li>
+                <li><span className="font-semibold text-white">Practical:</span> you leave with a one-page values card and defaults.</li>
+                <li><span className="font-semibold text-white">Calm:</span> language that lowers the temperature in real life.</li>
+              </ul>
+              <p className="mt-4 text-sm">
+                Questions? Email <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">hi@chipgpt.biz</a>
+              </p>
+            </div>
+          </div>
+        </Section>
 
         <Section id="what" eyebrow="Overview" title="What it is">
           <div className="grid gap-4 sm:grid-cols-2">
