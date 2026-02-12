@@ -141,6 +141,7 @@ export default function App() {
       { href: "#format", label: "Format" },
       { href: "#schedule", label: "Dates & time" },
       { href: "#pricing", label: "Pricing" },
+      { href: "#policies", label: "Policies" },
       { href: "#faq", label: "FAQ" },
     ],
     []
@@ -165,6 +166,10 @@ export default function App() {
     {
       q: "What if we miss a week?",
       a: "We’ll do our best to share the take-home materials. A makeup date is planned for Mar 29, 2026 if needed.",
+    },
+    {
+      q: "Can I take photos?",
+      a: "You’re welcome to take photos of your own family, but please don’t photograph other families without their permission. If we want to take any photos for promotion, we’ll ask for consent first.",
     },
     {
       q: "Is this a coding class?",
@@ -217,7 +222,7 @@ export default function App() {
 
           <div className="flex items-center gap-2">
             <SecondaryButton href="#pricing" label="Pricing" />
-            <PrimaryButton href="#cta" label="Get updates" />
+            <PrimaryButton href="#register" label="Register" />
           </div>
         </Container>
       </header>
@@ -232,10 +237,10 @@ export default function App() {
               <p className="truncate text-xs text-white/60">Sundays in March 2026 • 2pm</p>
             </div>
             <a
-              href="#cta"
+              href="#register"
               className="shrink-0 rounded-xl bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950"
             >
-              Join
+              Register
             </a>
           </Container>
         </div>
@@ -253,7 +258,7 @@ export default function App() {
               <div>
                 <div className="flex flex-wrap gap-2">
                   <Badge>4-week series</Badge>
-                  <Badge>Dad + daughter friendly</Badge>
+                  <Badge>Parent + child</Badge>
                   <Badge>Minimal screens</Badge>
                 </div>
 
@@ -270,7 +275,7 @@ export default function App() {
                 </p>
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
-                  <PrimaryButton href="#cta" label="Join the interest list" />
+                  <PrimaryButton href="#register" label="Register" />
                   <SecondaryButton href="#schedule" label="See dates" />
                 </div>
 
@@ -471,20 +476,73 @@ export default function App() {
 
         <Section id="pricing" eyebrow="Paid workshop" title="Pricing">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Card title="First child">
+            <Card title="1 child">
               <p className="mt-2 text-3xl font-bold text-white">$149</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <div className="mt-4">
+                <PrimaryButton
+                  href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
+                  label="Register (1 child)"
+                />
+              </div>
             </Card>
-            <Card title="Sibling add-on">
-              <p className="mt-2 text-3xl font-bold text-white">$100</p>
-              <p className="mt-1 text-white/70">Per additional child</p>
+            <Card title="2 children">
+              <p className="mt-2 text-3xl font-bold text-white">$249</p>
+              <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <div className="mt-4">
+                <PrimaryButton
+                  href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
+                  label="Register (2 children)"
+                />
+              </div>
+            </Card>
+            <Card title="3 children">
+              <p className="mt-2 text-3xl font-bold text-white">$349</p>
+              <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <div className="mt-4">
+                <PrimaryButton
+                  href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
+                  label="Register (3 children)"
+                />
+              </div>
             </Card>
             <Card title="What’s included">
               <ul className="mt-2 list-disc space-y-1 pl-5">
                 <li>4 live sessions</li>
+                <li>Parent + child format (not drop-off)</li>
                 <li>Printed take-home handouts</li>
-                <li>Family Tech Values Card</li>
+                <li>Family Tech Values Card + family tech plan</li>
               </ul>
+            </Card>
+          </div>
+          <p className="mt-4 text-sm text-white/70">
+            Questions about registration? Email{" "}
+            <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">
+              hi@chipgpt.biz
+            </a>
+            .
+          </p>
+        </Section>
+
+        <Section id="policies" eyebrow="Safety" title="Policies">
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Card title="Supervision">
+              Kids stay with their adult at all times. This is parent + child together (not drop-off), and the
+              adult is responsible for their child’s supervision.
+            </Card>
+            <Card title="Screens">
+              Minimal screens. No open internet. No kid accounts. If a screen is used, it’s presenter-controlled.
+            </Card>
+            <Card title="Photos">
+              Please don’t photograph other families without their permission. If we want to take any photos for
+              promotion, we’ll ask for consent first.
+            </Card>
+            <Card title="Safety">
+              If your child needs a break, hallway breaks are always okay. In an emergency we’ll follow venue
+              procedures and call 911.
+              <p className="mt-2 text-white/70">
+                (This workshop is educational, not medical/legal advice.)
+              </p>
             </Card>
           </div>
         </Section>
@@ -497,22 +555,33 @@ export default function App() {
           </div>
         </Section>
 
-        <section id="cta" className="scroll-mt-24 py-16">
+        <section id="register" className="scroll-mt-24 py-16">
           <Container>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 to-white/0 p-8 shadow-sm sm:p-10">
               <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
                 <div>
-                  <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Get updates & registration info</h2>
+                  <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Register</h2>
                   <p className="mt-3 text-white/80">
-                    Want first dibs when the venue is confirmed and registration opens? Join the interest list.
+                    Pick the option that matches the number of kids you’re registering. (This covers all 4 weeks.)
                   </p>
                   <p className="mt-2 text-sm text-white/60">
-                    (Placeholder button for now—we’ll link this to your form.)
+                    Venue details will be confirmed once finalized.
                   </p>
                 </div>
-                <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
-                  <PrimaryButton href="#" label="Interest form (coming soon)" />
-                  <SecondaryButton href="mailto:hi@chipgpt.biz" label="Email: hi@chipgpt.biz" />
+                <div className="flex flex-col gap-3">
+                  <PrimaryButton
+                    href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
+                    label="Register: 1 child"
+                  />
+                  <PrimaryButton
+                    href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
+                    label="Register: 2 children"
+                  />
+                  <PrimaryButton
+                    href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
+                    label="Register: 3 children"
+                  />
+                  <SecondaryButton href="mailto:hi@chipgpt.biz" label="Questions? Email hi@chipgpt.biz" />
                 </div>
               </div>
             </div>
