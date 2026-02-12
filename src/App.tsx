@@ -165,7 +165,7 @@ export default function App() {
     },
     {
       q: "What if we miss a week?",
-      a: "We’ll do our best to share the take-home materials. A makeup date is planned for Mar 29, 2026 if needed.",
+      a: "If you miss a session, we’ll do our best to share the take-home materials. The makeup date (Mar 29, 2026) is intended as a backup in case a class needs to be rescheduled—not as an extra catch-up day.",
     },
     {
       q: "Can I take photos?",
@@ -271,7 +271,7 @@ export default function App() {
 
                 {/* #2: fast decision info */}
                 <p className="mt-4 text-sm text-white/70">
-                  Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling • 10 kids max
+                  Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling
                 </p>
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -279,25 +279,19 @@ export default function App() {
                   <SecondaryButton href="#schedule" label="See dates" />
                 </div>
 
-                <div className="mt-9 grid gap-4 sm:grid-cols-3">
-                  <Card title="Where">Rockwall / Rowlett / Forney area (final venue TBD)</Card>
-                  <Card title="When">Sundays • 2:00–3:15pm</Card>
-                  <Card title="Format">Parent + child (no drop-off)</Card>
-                </div>
+                {/* Removed hero info boxes (Where/When/Format) */}
               </div>
 
               <div className="lg:justify-self-end">
                 <figure className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-sm">
                   <img
-                    src="/tech-literacy-workshop/placeholder-hero.svg"
-                    alt="Workshop photo placeholder"
+                    src="/tech-literacy-workshop/og-image.png"
+                    alt="Family Tech Literacy Workshop"
                     className="h-auto w-full"
                     loading="lazy"
                   />
                 </figure>
-                <p className="mt-3 text-xs text-white/55">
-                  Placeholder image — swap with a real photo (dad + daughter, hands-on activity, no screens).
-                </p>
+                {/* Hero image uses og-image for now */}
               </div>
             </div>
           </Container>
@@ -448,7 +442,7 @@ export default function App() {
               This isn’t a scare talk or a screen-shaming session—it's practical and calm.
             </Card>
             <Card title="Small group">
-              10 kids max so discussion stays human and kids stay engaged.
+              Small, interactive group so discussion stays human and kids stay engaged.
             </Card>
           </div>
         </Section>
@@ -506,14 +500,7 @@ export default function App() {
                 />
               </div>
             </Card>
-            <Card title="What’s included">
-              <ul className="mt-2 list-disc space-y-1 pl-5">
-                <li>4 live sessions</li>
-                <li>Parent + child format (not drop-off)</li>
-                <li>Printed take-home handouts</li>
-                <li>Family Tech Values Card + family tech plan</li>
-              </ul>
-            </Card>
+            {/* Removed “What’s included” box */}
           </div>
           <p className="mt-4 text-sm text-white/70">
             Questions about registration? Email{" "}
