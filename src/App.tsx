@@ -303,32 +303,30 @@ export default function App() {
             <div className="grid gap-4 sm:grid-cols-3">
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
-                  src="/tech-literacy-workshop/placeholder-strip-1.svg"
-                  alt="Placeholder: hands-on activity"
+                  src="/tech-literacy-workshop/strip-1.png"
+                  alt="Hands-on workshop activity"
                   className="h-auto w-full"
                   loading="lazy"
                 />
               </figure>
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
-                  src="/tech-literacy-workshop/placeholder-strip-2.svg"
-                  alt="Placeholder: dad and daughter at table"
+                  src="/tech-literacy-workshop/strip-2.png"
+                  alt="Sorting cards activity"
                   className="h-auto w-full"
                   loading="lazy"
                 />
               </figure>
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
-                  src="/tech-literacy-workshop/placeholder-strip-3.svg"
-                  alt="Placeholder: values card"
+                  src="/tech-literacy-workshop/strip-3.png"
+                  alt="Classroom discussion"
                   className="h-auto w-full"
                   loading="lazy"
                 />
               </figure>
             </div>
-            <p className="mt-3 text-xs text-white/55">
-              Photo placeholders — we’ll swap in real workshop images.
-            </p>
+            {/* Image strip updated (no longer placeholders) */}
           </Container>
         </section>
 
@@ -449,23 +447,21 @@ export default function App() {
 
         <Section id="schedule" eyebrow="March 2026" title="Dates & time">
           <div className="grid gap-4 sm:grid-cols-2">
-            <Card title="Preferred time">
-              Sundays, 2:00–3:15pm (75 minutes)
-              <p className="mt-2 text-white/70">Optional makeup date: Mar 29, 2026</p>
-            </Card>
-            <Card title="Preferred dates">
+            <Card title="Series schedule">
               <ul className="mt-2 list-disc space-y-1 pl-5">
-                <li>Mar 1, 2026</li>
-                <li>Mar 8, 2026</li>
-                <li>Mar 15, 2026</li>
-                <li>Mar 22, 2026</li>
-                <li className="text-white/70">Mar 29, 2026 (makeup if needed)</li>
+                <li><span className="font-semibold text-white">Sundays</span> • 2:00–3:15pm</li>
+                <li><span className="font-semibold text-white">4 weeks</span> • Mar 1, 8, 15, 22 (2026)</li>
               </ul>
+              <p className="mt-3 text-white/70">
+                Backup date: <span className="font-semibold text-white">Mar 29, 2026</span> (only if a class needs
+                to be rescheduled).
+              </p>
+            </Card>
+            <Card title="Location">
+              Rockwall / Rowlett / Forney area
+              <p className="mt-2 text-white/70">Final venue details will be confirmed once availability is finalized.</p>
             </Card>
           </div>
-          <p className="mt-4 text-sm text-white/70">
-            Venue details will be confirmed once availability is finalized.
-          </p>
         </Section>
 
         <Section id="pricing" eyebrow="Paid workshop" title="Pricing">
