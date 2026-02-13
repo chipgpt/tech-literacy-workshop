@@ -304,7 +304,7 @@ export default function App() {
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-1.png"
-                  alt="Hands-on workshop activity"
+                  alt="Family tech values card on the fridge"
                   className="h-auto w-full"
                   loading="lazy"
                 />
@@ -320,7 +320,7 @@ export default function App() {
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-3.png"
-                  alt="Classroom discussion"
+                  alt="Device parking routine at home"
                   className="h-auto w-full"
                   loading="lazy"
                 />
