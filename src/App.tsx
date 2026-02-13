@@ -166,7 +166,11 @@ export default function App() {
     },
     {
       q: "What if we miss a week?",
-      a: "If you miss a session, we’ll do our best to share the take-home materials. The makeup date (Mar 29, 2026) is intended as a backup in case a class needs to be rescheduled—not as an extra catch-up day.",
+      a: "If you miss a session, we’ll do our best to share the take-home materials. The backup date (Mar 29, 2026) is intended in case a class needs to be rescheduled—not as an extra catch-up day.",
+    },
+    {
+      q: "What’s your refund / cancellation policy?",
+      a: "If your plans change, email us at hi@chipgpt.biz and we’ll work with you. If we need to cancel or reschedule a session, you’ll have the option of a refund or transferring your registration.",
     },
     {
       q: "Can I take photos?",
@@ -174,7 +178,7 @@ export default function App() {
     },
     {
       q: "Is this a coding class?",
-      a: "Not exactly. It’s foundational tech literacy—systems, interfaces, automation, and calm decision-making around tools.",
+      a: "No. It’s foundational tech literacy—systems, interfaces, automation, data basics, and calm decision-making around tools.",
     },
   ];
 
@@ -222,7 +226,7 @@ export default function App() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <PrimaryButton href="#register" label="Register" />
+            <PrimaryButton href="#register" label="Register now" />
           </div>
         </Container>
       </header>
@@ -240,7 +244,7 @@ export default function App() {
               href="#register"
               className="shrink-0 rounded-xl bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950"
             >
-              Register
+              Register now
             </a>
           </Container>
         </div>
@@ -275,7 +279,7 @@ export default function App() {
                 </p>
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
-                  <PrimaryButton href="#register" label="Register" />
+                  <PrimaryButton href="#register" label="Register now" />
                   <SecondaryButton href="#schedule" label="See dates" />
                 </div>
 
@@ -436,7 +440,9 @@ export default function App() {
             </Card>
             <Card title="Location">
               Rockwall / Rowlett / Forney area
-              <p className="mt-2 text-white/70">Final venue details will be confirmed once availability is finalized.</p>
+              <p className="mt-2 text-white/70">
+                We’re booking a family-friendly venue with easy parking. Final address will be emailed to registered families.
+              </p>
             </Card>
           </div>
         </Section>
@@ -446,6 +452,9 @@ export default function App() {
             <Card title="1 child">
               <p className="mt-2 text-3xl font-bold text-white">$149</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <p className="mt-2 text-sm text-white/60">
+                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
+              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
@@ -457,6 +466,9 @@ export default function App() {
             <Card title="2 children">
               <p className="mt-2 text-3xl font-bold text-white">$249</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <p className="mt-2 text-sm text-white/60">
+                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
+              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
@@ -468,6 +480,9 @@ export default function App() {
             <Card title="3 children">
               <p className="mt-2 text-3xl font-bold text-white">$349</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
+              <p className="mt-2 text-sm text-white/60">
+                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
+              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
@@ -566,7 +581,7 @@ export default function App() {
                     Pick the option that matches the number of kids you’re registering. (This covers all 4 weeks.)
                   </p>
                   <p className="mt-2 text-sm text-white/60">
-                    Venue details will be confirmed once finalized.
+                    After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
                   </p>
                 </div>
                 <div className="flex flex-col gap-3">
