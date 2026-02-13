@@ -301,53 +301,28 @@ export default function App() {
         <section aria-label="Workshop photos" className="py-10">
           <Container>
             <div className="grid gap-4 sm:grid-cols-3">
-              <figure className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-1.png"
                   alt="Family tech values card on the fridge"
-                  className="h-auto w-full opacity-90 saturate-90 contrast-110"
+                  className="h-auto w-full"
                   loading="lazy"
                 />
-                {/* Color treatment: subtle cool tint + vignette so artwork sits in the dark slate UI */}
-                <div
-                  className="pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-950/10 via-slate-950/0 to-slate-950/35 mix-blend-multiply"
-                  aria-hidden
-                />
-                <div
-                  className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-sky-400/10"
-                  aria-hidden
-                />
               </figure>
-              <figure className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-2.png"
                   alt="Sorting cards activity"
-                  className="h-auto w-full opacity-90 saturate-90 contrast-110"
+                  className="h-auto w-full"
                   loading="lazy"
                 />
-                <div
-                  className="pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-950/10 via-slate-950/0 to-slate-950/35 mix-blend-multiply"
-                  aria-hidden
-                />
-                <div
-                  className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-sky-400/10"
-                  aria-hidden
-                />
               </figure>
-              <figure className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-3.png"
                   alt="Device parking routine at home"
-                  className="h-auto w-full opacity-90 saturate-90 contrast-110"
+                  className="h-auto w-full"
                   loading="lazy"
-                />
-                <div
-                  className="pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-950/10 via-slate-950/0 to-slate-950/35 mix-blend-multiply"
-                  aria-hidden
-                />
-                <div
-                  className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-sky-400/10"
-                  aria-hidden
                 />
               </figure>
             </div>
