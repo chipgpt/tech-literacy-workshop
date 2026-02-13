@@ -297,11 +297,10 @@ export default function App() {
           </Container>
         </div>
 
-        {/* Image strip — Option A: captions under each image */}
-        <section aria-label="Workshop photos with captions" className="py-10">
+        {/* Image strip */}
+        <section aria-label="Workshop photos" className="py-10">
           <Container>
-            <p className="text-xs font-semibold tracking-wide text-white/55">Preview: Option A (captions)</p>
-            <div className="mt-4 grid gap-4 sm:grid-cols-3">
+            <div className="grid gap-4 sm:grid-cols-3">
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-1.png"
@@ -334,42 +333,6 @@ export default function App() {
                 <figcaption className="px-4 py-3 text-sm text-white/70">
                   <span className="font-semibold text-white">Make it calm.</span> Simple defaults and routines that reduce fights.
                 </figcaption>
-              </figure>
-            </div>
-          </Container>
-        </section>
-
-        {/* Image strip — Option B: single line above strip */}
-        <section aria-label="Workshop photos" className="py-10">
-          <Container>
-            <p className="text-xs font-semibold tracking-wide text-white/55">Preview: Option B (one-liner)</p>
-            <p className="mt-2 text-sm text-white/70">
-              Hands-on, values-first tech literacy—built for real homes.
-            </p>
-            <div className="mt-4 grid gap-4 sm:grid-cols-3">
-              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-                <img
-                  src="/tech-literacy-workshop/strip-1.png"
-                  alt="Family tech values card on the fridge"
-                  className="h-auto w-full"
-                  loading="lazy"
-                />
-              </figure>
-              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-                <img
-                  src="/tech-literacy-workshop/strip-2.png"
-                  alt="Sorting cards activity"
-                  className="h-auto w-full"
-                  loading="lazy"
-                />
-              </figure>
-              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-                <img
-                  src="/tech-literacy-workshop/strip-3.png"
-                  alt="Device parking routine at home"
-                  className="h-auto w-full"
-                  loading="lazy"
-                />
               </figure>
             </div>
           </Container>
