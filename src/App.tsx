@@ -136,12 +136,9 @@ export default function App() {
   const nav: NavItem[] = useMemo(
     () => [
       { href: "#what", label: "What it is" },
-      { href: "#who", label: "Who it's for" },
-      { href: "#learn", label: "What you'll learn" },
       { href: "#format", label: "Format" },
-      { href: "#schedule", label: "Dates & time" },
+      { href: "#schedule", label: "Dates" },
       { href: "#pricing", label: "Pricing" },
-      { href: "#policies", label: "Policies" },
       { href: "#faq", label: "FAQ" },
     ],
     []
@@ -201,7 +198,7 @@ export default function App() {
             </div>
           </div>
 
-          <nav aria-label="Page" className="hidden items-center gap-1 md:flex">
+          <nav aria-label="Page" className="hidden items-center gap-1 lg:flex">
             {nav.map((item) => {
               const id = item.href.replace(/^#/, "");
               const isActive = active === id;
