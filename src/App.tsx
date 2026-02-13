@@ -86,10 +86,12 @@ function Card(props: { title: string; children: React.ReactNode }) {
   );
 }
 
-function PrimaryButton(props: { href: string; label: string }) {
+function PrimaryButton(props: { href: string; label: string; newTab?: boolean }) {
   return (
     <a
       href={props.href}
+      target={props.newTab ? "_blank" : undefined}
+      rel={props.newTab ? "noopener noreferrer" : undefined}
       className="inline-flex items-center justify-center rounded-xl bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-sm hover:bg-sky-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300"
     >
       {props.label}
@@ -97,10 +99,12 @@ function PrimaryButton(props: { href: string; label: string }) {
   );
 }
 
-function SecondaryButton(props: { href: string; label: string }) {
+function SecondaryButton(props: { href: string; label: string; newTab?: boolean }) {
   return (
     <a
       href={props.href}
+      target={props.newTab ? "_blank" : undefined}
+      rel={props.newTab ? "noopener noreferrer" : undefined}
       className="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/0 px-5 py-3 text-sm font-semibold text-white hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
     >
       {props.label}
@@ -175,7 +179,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-dvh bg-slate-950 text-white">
+    <div id="top" className="min-h-dvh bg-slate-950 text-white">
       <a
         href="#what"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:text-slate-900"
@@ -186,7 +190,7 @@ export default function App() {
       {/* Top nav */}
       <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur">
         <Container className="flex h-16 items-center justify-between">
-          <div className="flex items-center gap-3">
+          <a href="#top" className="flex items-center gap-3 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-sky-400/15 ring-1 ring-sky-400/30">
               <span className="text-sm font-bold text-sky-200" aria-hidden>
                 TL
@@ -196,7 +200,7 @@ export default function App() {
               <p className="text-sm font-semibold">Family Tech Literacy Workshop</p>
               <p className="text-xs text-white/60">Rockwall / Rowlett / Forney</p>
             </div>
-          </div>
+          </a>
 
           <nav aria-label="Page" className="hidden items-center gap-1 lg:flex">
             {nav.map((item) => {
@@ -218,7 +222,9 @@ export default function App() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <SecondaryButton href="#pricing" label="Pricing" />
+            <div className="lg:hidden">
+              <SecondaryButton href="#pricing" label="Pricing" />
+            </div>
             <PrimaryButton href="#register" label="Register" />
           </div>
         </Container>
@@ -478,6 +484,7 @@ export default function App() {
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
                   label="Register (1 child)"
+                  newTab
                 />
               </div>
             </Card>
@@ -488,6 +495,7 @@ export default function App() {
                 <PrimaryButton
                   href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
                   label="Register (2 children)"
+                  newTab
                 />
               </div>
             </Card>
@@ -498,6 +506,7 @@ export default function App() {
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
                   label="Register (3 children)"
+                  newTab
                 />
               </div>
             </Card>
@@ -560,14 +569,17 @@ export default function App() {
                   <PrimaryButton
                     href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
                     label="Register: 1 child"
+                    newTab
                   />
                   <PrimaryButton
                     href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
                     label="Register: 2 children"
+                    newTab
                   />
                   <PrimaryButton
                     href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
                     label="Register: 3 children"
+                    newTab
                   />
                   <SecondaryButton href="mailto:hi@chipgpt.biz" label="Questions? Email hi@chipgpt.biz" />
                 </div>
