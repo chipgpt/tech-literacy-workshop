@@ -338,47 +338,6 @@ export default function App() {
           </Container>
         </section>
 
-        {/* Human touch: instructor */}
-        <Section id="led" eyebrow="Your guide" title="Led by Chip">
-          <div className="grid gap-6 md:grid-cols-[0.35fr_0.65fr] md:items-start">
-            <div>
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-                <img
-                  src="/tech-literacy-workshop/placeholder-chip.svg"
-                  alt="Headshot placeholder"
-                  className="h-auto w-full"
-                  loading="lazy"
-                />
-              </div>
-              <p className="mt-2 text-xs text-white/55">Headshot placeholder</p>
-            </div>
-            <div className="max-w-2xl text-white/80">
-              <p className="text-base">
-                This workshop is built to be <span className="font-semibold text-white">calm, practical, and real</span>—the kind of tech
-                literacy that holds up when you’re tired, your kid is melting down, and you still need a simple way
-                to make decisions.
-              </p>
-              <p className="mt-3 text-base">
-                I’m Chip Armstrong. I’ve spent <span className="font-semibold text-white">15+ years</span> building software products and
-                AI-enabled systems used by thousands of people—including work integrating LLMs into production apps.
-                I also built and scaled a SaaS platform that was <span className="font-semibold text-white">acquired</span>.
-              </p>
-              <p className="mt-3 text-base">
-                At home, I’m a dad of young kids (<span className="font-semibold text-white">ages 3–7</span>). That’s why this program is
-                intentionally low-screen and family-first: you leave with a few defaults and scripts you can actually
-                use, not a bunch of guilt or theory.
-              </p>
-              <p className="mt-4 text-sm text-white/75">
-                You’ll learn clear models (tool → job, input → rule → output, data/accounts/defaults), do hands-on activities that
-                work for ages ~4–10, and leave with a one-page values card plus a few boundaries that reduce arguments.
-              </p>
-              <p className="mt-4 text-sm">
-                Questions? Email <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">hi@chipgpt.biz</a>
-              </p>
-            </div>
-          </div>
-        </Section>
-
         <Section id="what" eyebrow="Overview" title="What it is">
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="A 4-week series">
@@ -528,6 +487,55 @@ export default function App() {
           </p>
         </Section>
 
+        {/* Human touch: instructor */}
+        <Section id="led" eyebrow="Your guide" title="Led by Chip">
+          <div className="grid gap-6 md:grid-cols-[0.35fr_0.65fr] md:items-start">
+            <div>
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <img
+                  src="/tech-literacy-workshop/placeholder-chip.svg"
+                  alt="Headshot placeholder"
+                  className="h-auto w-full"
+                  loading="lazy"
+                />
+              </div>
+              <p className="mt-2 text-xs text-white/55">Headshot placeholder</p>
+            </div>
+            <div className="max-w-2xl text-white/80">
+              <p className="text-base">
+                This workshop is built to be <span className="font-semibold text-white">calm, practical, and real</span>—the kind of tech
+                literacy that holds up when you’re tired, your kid is melting down, and you still need a simple way
+                to make decisions.
+              </p>
+              <p className="mt-3 text-base">
+                I’m Chip Armstrong. I’ve spent <span className="font-semibold text-white">15+ years</span> building software products and
+                AI-enabled systems used by thousands of people—including work integrating LLMs into production apps.
+                I also built and scaled a SaaS platform that was <span className="font-semibold text-white">acquired</span>.
+              </p>
+              <p className="mt-3 text-base">
+                At home, I’m a dad of young kids (<span className="font-semibold text-white">ages 3–7</span>). That’s why this program is
+                intentionally low-screen and family-first: you leave with a few defaults and scripts you can actually
+                use, not a bunch of guilt or theory.
+              </p>
+              <p className="mt-4 text-sm text-white/75">
+                You’ll learn clear models (tool → job, input → rule → output, data/accounts/defaults), do hands-on activities that
+                work for ages ~4–10, and leave with a one-page values card plus a few boundaries that reduce arguments.
+              </p>
+              <p className="mt-4 text-sm">
+                Questions? Email <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">hi@chipgpt.biz</a>
+              </p>
+            </div>
+          </div>
+        </Section>
+
+        <Section id="faq" eyebrow="Good questions" title="FAQ">
+          <div className="grid gap-3">
+            {faqs.map((f) => (
+              <FAQItem key={f.q} item={f} />
+            ))}
+          </div>
+        </Section>
+
         <Section id="policies" eyebrow="Safety" title="Policies">
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="Supervision">
@@ -551,20 +559,12 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="faq" eyebrow="Good questions" title="FAQ">
-          <div className="grid gap-3">
-            {faqs.map((f) => (
-              <FAQItem key={f.q} item={f} />
-            ))}
-          </div>
-        </Section>
-
         <section id="register" className="scroll-mt-24 py-16">
           <Container>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 to-white/0 p-8 shadow-sm sm:p-10">
               <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
                 <div>
-                  <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Register</h2>
+                  <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Ready to register?</h2>
                   <p className="mt-3 text-white/80">
                     Pick the option that matches the number of kids you’re registering. (This covers all 4 weeks.)
                   </p>
