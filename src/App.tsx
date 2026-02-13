@@ -282,7 +282,7 @@ export default function App() {
                 {/* Removed hero info boxes (Where/When/Format) */}
               </div>
 
-              <div className="lg:justify-self-end">
+              <div className="hidden lg:block lg:justify-self-end">
                 <figure className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-sm">
                   <img
                     src="/tech-literacy-workshop/og-image.png"
