@@ -1,0 +1,10 @@
+Hi {Name},
+
+Just bumping this to the top of your inbox — would it be worth a quick 15‑minute chat about automating HVAC lead intake + booking for {BusinessName}?
+
+If yes, I can do today at 3:30pm CT or tomorrow at 10:00am CT.
+
+If it’s not a fit, no worries — just reply “no” and I’ll close the loop.
+
+— Chip
+hi@chipgpt.biz

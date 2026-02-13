@@ -7,7 +7,6 @@
 - **Capacity:** 10 kids max (**parent + child required**; no drop-offs)
 - **Pricing:** $149 for first child + $100 per sibling (covers all 4 weeks)
 - **Family cap:** none
-- **Faith:** neutral
 - **Screens:** minimal; presenter-controlled screen allowed
 
 Target run month:
