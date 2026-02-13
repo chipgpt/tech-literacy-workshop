@@ -368,11 +368,10 @@ export default function App() {
                 intentionally low-screen and family-first: you leave with a few defaults and scripts you can actually
                 use, not a bunch of guilt or theory.
               </p>
-              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm">
-                <li><span className="font-semibold text-white">Clear models:</span> tool → job, input → rule → output, data/accounts/defaults.</li>
-                <li><span className="font-semibold text-white">Kid-friendly:</span> hands-on activities that work for ages ~4–10.</li>
-                <li><span className="font-semibold text-white">Actionable:</span> a one-page values card + simple boundaries to reduce arguments.</li>
-              </ul>
+              <p className="mt-4 text-sm text-white/75">
+                You’ll learn clear models (tool → job, input → rule → output, data/accounts/defaults), do hands-on activities that
+                work for ages ~4–10, and leave with a one-page values card plus a few boundaries that reduce arguments.
+              </p>
               <p className="mt-4 text-sm">
                 Questions? Email <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">hi@chipgpt.biz</a>
               </p>
