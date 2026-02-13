@@ -354,12 +354,19 @@ export default function App() {
             </div>
             <div className="max-w-2xl text-white/80">
               <p className="text-base">
-                I built this workshop for families who want confidence—not conflict—around technology.
-                No shame. No panic. Just a simple, repeatable way to decide what tools belong in your home.
+                I’m Chip Armstrong—a senior full-stack engineer with <span className="font-semibold text-white">15+ years</span> building
+                real-world software systems (including AI/LLM automation) used by thousands of people.
+                I’ve founded and built a SaaS platform that was <span className="font-semibold text-white">successfully acquired</span>, and I
+                currently build AI-enabled SaaS for paying customers.
+              </p>
+              <p className="mt-3 text-base">
+                I’m also a dad of kids in the <span className="font-semibold text-white">3–7</span> range, so this workshop is designed for
+                what actually works at home: calm rules, clear defaults, and less fighting.
               </p>
               <ul className="mt-4 list-disc space-y-2 pl-5 text-sm">
+                <li><span className="font-semibold text-white">Credible:</span> practical tech literacy grounded in how products are built (systems, data, interfaces, AI).</li>
                 <li><span className="font-semibold text-white">Hands-on:</span> kids stay engaged without needing screens.</li>
-                <li><span className="font-semibold text-white">Practical:</span> you leave with a one-page values card and defaults.</li>
+                <li><span className="font-semibold text-white">Take-home:</span> you leave with a one-page values card + defaults you can use that week.</li>
                 <li><span className="font-semibold text-white">Calm:</span> language that lowers the temperature in real life.</li>
               </ul>
               <p className="mt-4 text-sm">
