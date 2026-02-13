@@ -354,20 +354,24 @@ export default function App() {
             </div>
             <div className="max-w-2xl text-white/80">
               <p className="text-base">
-                I’m also a dad of kids in the <span className="font-semibold text-white">3–7</span> range, so this workshop is designed for
-                what actually works at home: calm rules, clear defaults, and less fighting.
+                This workshop is built to be <span className="font-semibold text-white">calm, practical, and real</span>—the kind of tech
+                literacy that holds up when you’re tired, your kid is melting down, and you still need a simple way
+                to make decisions.
               </p>
               <p className="mt-3 text-base">
-                Professionally, I’m a senior full-stack engineer with <span className="font-semibold text-white">15+ years</span> building
-                real-world software systems (including AI/LLM automation) used by thousands of people.
-                I’ve founded and built a SaaS platform that was <span className="font-semibold text-white">successfully acquired</span>, and I
-                currently build AI-enabled SaaS for paying customers.
+                I’m Chip Armstrong. I’ve spent <span className="font-semibold text-white">15+ years</span> building software products and
+                AI-enabled systems used by thousands of people—including work integrating LLMs into production apps.
+                I also built and scaled a SaaS platform that was <span className="font-semibold text-white">acquired</span>.
+              </p>
+              <p className="mt-3 text-base">
+                At home, I’m a dad of young kids (<span className="font-semibold text-white">ages 3–7</span>). That’s why this program is
+                intentionally low-screen and family-first: you leave with a few defaults and scripts you can actually
+                use, not a bunch of guilt or theory.
               </p>
               <ul className="mt-4 list-disc space-y-2 pl-5 text-sm">
-                <li><span className="font-semibold text-white">Credible:</span> practical tech literacy grounded in how products are built (systems, data, interfaces, AI).</li>
-                <li><span className="font-semibold text-white">Hands-on:</span> kids stay engaged without needing screens.</li>
-                <li><span className="font-semibold text-white">Take-home:</span> you leave with a one-page values card + defaults you can use that week.</li>
-                <li><span className="font-semibold text-white">Calm:</span> language that lowers the temperature in real life.</li>
+                <li><span className="font-semibold text-white">Clear models:</span> tool → job, input → rule → output, data/accounts/defaults.</li>
+                <li><span className="font-semibold text-white">Kid-friendly:</span> hands-on activities that work for ages ~4–10.</li>
+                <li><span className="font-semibold text-white">Actionable:</span> a one-page values card + simple boundaries to reduce arguments.</li>
               </ul>
               <p className="mt-4 text-sm">
                 Questions? Email <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">hi@chipgpt.biz</a>
