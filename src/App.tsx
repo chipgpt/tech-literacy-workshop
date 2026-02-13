@@ -222,9 +222,6 @@ export default function App() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <div className="lg:hidden">
-              <SecondaryButton href="#pricing" label="Pricing" />
-            </div>
             <PrimaryButton href="#register" label="Register" />
           </div>
         </Container>
