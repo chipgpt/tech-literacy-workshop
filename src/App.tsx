@@ -452,9 +452,6 @@ export default function App() {
             <Card title="1 child">
               <p className="mt-2 text-3xl font-bold text-white">$149</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
-              <p className="mt-2 text-sm text-white/60">
-                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
-              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ6oJgGF4NY3hj3EX43S00"
@@ -466,9 +463,6 @@ export default function App() {
             <Card title="2 children">
               <p className="mt-2 text-3xl font-bold text-white">$249</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
-              <p className="mt-2 text-sm text-white/60">
-                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
-              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/6oU3cxgGFgwG7xz3EX43S01"
@@ -480,9 +474,6 @@ export default function App() {
             <Card title="3 children">
               <p className="mt-2 text-3xl font-bold text-white">$349</p>
               <p className="mt-1 text-white/70">Includes all 4 weeks</p>
-              <p className="mt-2 text-sm text-white/60">
-                After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
-              </p>
               <div className="mt-4">
                 <PrimaryButton
                   href="https://book.stripe.com/5kQ3cx0HHgwG4ln2AT43S02"
@@ -493,6 +484,11 @@ export default function App() {
             </Card>
             {/* Removed “What’s included” box */}
           </div>
+
+          <p className="mt-4 text-sm text-white/60">
+            After you register, you’ll get an email confirmation. The venue address will be sent once finalized.
+          </p>
+
           <p className="mt-4 text-sm text-white/70">
             Questions about registration? Email{" "}
             <a className="font-semibold text-sky-300 hover:text-sky-200" href="mailto:hi@chipgpt.biz">
@@ -563,7 +559,7 @@ export default function App() {
             </Card>
             <Card title="Safety">
               If your child needs a break, hallway breaks are always okay. In an emergency we’ll follow venue
-              procedures and call 911.
+              procedures.
               <p className="mt-2 text-white/70">
                 (This workshop is educational, not medical/legal advice.)
               </p>
