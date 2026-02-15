@@ -202,7 +202,7 @@ export default function App() {
             </div>
             <div className="leading-tight">
               <p className="text-sm font-semibold">Family Tech Literacy Workshop</p>
-              <p className="text-xs text-white/60">Rockwall / Rowlett / Forney</p>
+              {/* (Removed: area tagline) */}
             </div>
           </a>
 
@@ -560,9 +560,7 @@ export default function App() {
             <Card title="Safety">
               If your child needs a break, hallway breaks are always okay. In an emergency we’ll follow venue
               procedures.
-              <p className="mt-2 text-white/70">
-                (This workshop is educational, not medical/legal advice.)
-              </p>
+              {/* (Removed: medical/legal advice disclaimer) */}
             </Card>
           </div>
         </Section>
@@ -604,7 +602,7 @@ export default function App() {
             <footer className="mt-10 border-t border-white/10 pt-6 text-sm text-white/60">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <p>© {new Date().getFullYear()} Chip Armstrong</p>
-                <p className="text-white/50">Family Tech Literacy Workshop • Rockwall / Rowlett / Forney</p>
+                <p className="text-white/50">Family Tech Literacy Workshop</p>
               </div>
             </footer>
           </Container>
