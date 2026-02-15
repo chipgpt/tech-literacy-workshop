@@ -14,7 +14,7 @@
 
 ### Kids will:
 - Understand: technology is **tools made by people** to do a job.
-- Learn to spot “pull” patterns (autoplay, notifications, infinite scroll).
+- Learn to spot attention traps (autoplay, notifications, infinite scroll).
 - Practice a simple stop skill: **Pause → Ask → Choose**.
 - Learn kid-safe AI basics: AI can look smart, but it’s pattern-making—**not magic**.
 
