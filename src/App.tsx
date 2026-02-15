@@ -86,22 +86,6 @@ function Card(props: { title: string; children: React.ReactNode }) {
   );
 }
 
-function TakeawayCard(props: { icon: React.ReactNode; title: string; children: React.ReactNode }) {
-  return (
-    <div className="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm">
-      <div className="flex items-start gap-3">
-        <div className="mt-0.5 flex h-10 w-10 items-center justify-center rounded-xl bg-sky-400/15 ring-1 ring-sky-400/30">
-          {props.icon}
-        </div>
-        <div>
-          <h3 className="text-base font-semibold text-white">{props.title}</h3>
-          <div className="mt-1 text-sm text-white/75">{props.children}</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function PrimaryButton(props: { href: string; label: string; newTab?: boolean }) {
   return (
     <a
@@ -612,73 +596,6 @@ export default function App() {
                   />
                   <SecondaryButton href="mailto:hi@chipgpt.biz" label="Questions? Email hi@chipgpt.biz" />
                 </div>
-              </div>
-            </div>
-
-            <div className="mt-10">
-              <h3 className="text-lg font-semibold text-white">You’ll leave with</h3>
-              <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                <TakeawayCard
-                  title="Tech Values Card"
-                  icon={
-                    <svg viewBox="0 0 24 24" className="h-5 w-5 text-sky-200" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M4 7a2 2 0 0 1 2-2h9l5 5v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7z" />
-                      <path d="M14 5v5h5" />
-                      <path d="M8 13h8" />
-                      <path d="M8 17h6" />
-                    </svg>
-                  }
-                >
-                  A fridge-friendly one-page “north star” for your family.
-                </TakeawayCard>
-
-                <TakeawayCard
-                  title="Calm scripts"
-                  icon={
-                    <svg viewBox="0 0 24 24" className="h-5 w-5 text-sky-200" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
-                      <path d="M7.5 8.5h9" />
-                      <path d="M7.5 12h6" />
-                    </svg>
-                  }
-                >
-                  Simple language to de-escalate screen arguments.
-                </TakeawayCard>
-
-                <TakeawayCard
-                  title="Boundary defaults"
-                  icon={
-                    <svg viewBox="0 0 24 24" className="h-5 w-5 text-sky-200" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M4 6h10" />
-                      <path d="M4 18h10" />
-                      <path d="M4 12h16" />
-                      <path d="M14 6a2 2 0 1 0 0 .01" />
-                      <path d="M10 18a2 2 0 1 0 0 .01" />
-                      <path d="M18 12a2 2 0 1 0 0 .01" />
-                    </svg>
-                  }
-                >
-                  Practical defaults for accounts, autoplay, apps, and routines.
-                </TakeawayCard>
-
-                <TakeawayCard
-                  title="Kid-safe AI basics"
-                  icon={
-                    <svg viewBox="0 0 24 24" className="h-5 w-5 text-sky-200" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M12 2v4" />
-                      <path d="M12 18v4" />
-                      <path d="M4.93 4.93l2.83 2.83" />
-                      <path d="M16.24 16.24l2.83 2.83" />
-                      <path d="M2 12h4" />
-                      <path d="M18 12h4" />
-                      <path d="M4.93 19.07l2.83-2.83" />
-                      <path d="M16.24 7.76l2.83-2.83" />
-                      <path d="M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10z" />
-                    </svg>
-                  }
-                >
-                  A grounded way to explain what AI is (and isn’t).
-                </TakeawayCard>
               </div>
             </div>
 
