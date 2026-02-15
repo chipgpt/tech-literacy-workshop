@@ -524,7 +524,7 @@ export default function App() {
                 I also built and scaled a SaaS platform that was <span className="font-semibold text-white">acquired</span>.
               </p>
               <p className="mt-3 text-base">
-                At home, I’m a dad of young kids (<span className="font-semibold text-white">ages 3–7</span>). That’s why this program is
+                At home, I’m a dad of young kids. That’s why this program is
                 intentionally low-screen and family-first: you leave with a few defaults and scripts you can actually
                 use, not a bunch of guilt or theory.
               </p>
