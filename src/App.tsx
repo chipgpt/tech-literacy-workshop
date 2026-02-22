@@ -263,14 +263,14 @@ export default function App() {
                 <div className="flex flex-wrap gap-2">
                   <Badge>4-week series</Badge>
                   <Badge>Parent + child</Badge>
-                  <Badge>Minimal screens</Badge>
+                  <Badge>No screens</Badge>
                 </div>
 
                 <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
                   Raise tech-literate kids—without screens running the home.
                 </h1>
                 <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
-                  Calm, hands-on tech literacy for families: tools, systems, automation, and interfaces.
+                  Helping families understand how technology shapes attention, choices, and values.
                 </p>
 
                 {/* #2: fast decision info */}
@@ -345,8 +345,7 @@ export default function App() {
         <Section id="what" eyebrow="Overview" title="What it is">
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="A 4-week series">
-              Four sessions designed to build foundations—not random tips. You’ll leave with shared
-              vocabulary and a simple family framework.
+              Four sessions designed to build foundations—not random tips. You’ll leave with shared vocabulary about technology and a written family tech values plan.
             </Card>
             <Card title="Values-first (not fear-first)">
               We focus on calm, practical choices: what job a tool is doing, whether it’s doing that job
@@ -357,11 +356,11 @@ export default function App() {
 
         <Section id="who" eyebrow="Audience" title="Who it’s for">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Card title="Kids ~7–11">
+            <Card title="Elementary Aged Kids ~7–10">
               Activities are hands-on and age-appropriate. Older kids get optional “stretch” prompts.
             </Card>
             <Card title="Parents (required)">
-              This is not daycare. The goal is a shared family playbook you can use all week.
+              The goal is a shared family vocabulary and playbook you can use together.
             </Card>
             <Card title="Families who want balance">
               You want your kids to understand tech—without giving tech the keys to the house.
@@ -378,12 +377,11 @@ export default function App() {
                 <li>Systems and automation: simple steps can look “smart.”</li>
                 <li>Data basics: what information tools collect and why it matters.</li>
                 <li>Family rules that reduce conflict and protect attention.</li>
-                <li>New tech basics: how to ask good questions, verify claims, and set healthy boundaries.</li>
               </ul>
             </Card>
             <Card title="Take-home outcomes">
               <ul className="mt-2 list-disc space-y-2 pl-5">
-                <li>A one-page “Tech Values Card” for your fridge.</li>
+                <li>A “Family Tech Values Plan" for your fridge.</li>
                 <li>A shared set of boundary defaults (accounts, apps, autoplay, etc.).</li>
                 <li>Practical language to de-escalate screen arguments.</li>
               </ul>
@@ -560,7 +558,6 @@ export default function App() {
             <Card title="Safety">
               If your child needs a break, hallway breaks are always okay. In an emergency we’ll follow venue
               procedures.
-              {/* (Removed: medical/legal advice disclaimer) */}
             </Card>
           </div>
         </Section>
