@@ -162,7 +162,7 @@ export default function App() {
     },
     {
       q: "What ages work best?",
-      a: "Designed for kids ages ~4–10. Parents can adapt the same ideas for older siblings too.",
+      a: "Designed for kids ages ~7–11. Parents can adapt the same ideas for older siblings too.",
     },
     {
       q: "What if we miss a week?",
@@ -357,7 +357,7 @@ export default function App() {
 
         <Section id="who" eyebrow="Audience" title="Who it’s for">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Card title="Kids ~4–10">
+            <Card title="Kids ~7–11">
               Activities are hands-on and age-appropriate. Older kids get optional “stretch” prompts.
             </Card>
             <Card title="Parents (required)">
@@ -378,7 +378,7 @@ export default function App() {
                 <li>Systems and automation: simple steps can look “smart.”</li>
                 <li>Data basics: what information tools collect and why it matters.</li>
                 <li>Family rules that reduce conflict and protect attention.</li>
-                <li>AI basics (kid-safe): why it can look smart, and how to use it safely.</li>
+                <li>New tech basics: how to ask good questions, verify claims, and set healthy boundaries.</li>
               </ul>
             </Card>
             <Card title="Take-home outcomes">
@@ -520,7 +520,7 @@ export default function App() {
               </p>
               <p className="mt-3 text-base">
                 I’m Chip Armstrong. I’ve spent <span className="font-semibold text-white">15+ years</span> building software products and
-                AI-enabled systems used by thousands of people—including work integrating LLMs into production apps.
+                systems used by thousands of people.
                 I also built and scaled a SaaS platform that was <span className="font-semibold text-white">acquired</span>.
               </p>
               <p className="mt-3 text-base">
