@@ -154,7 +154,7 @@ export default function App() {
   const faqs: Faq[] = [
     {
       q: "Can I drop my child off?",
-      a: "No—this is designed for parent + child together. We want families to leave with shared language and shared habits.",
+      a: "No—this is designed for parent + child together. We want families to leave with shared language and a shared family plan you can use at home.",
     },
     {
       q: "Do kids need their own device or accounts?",
@@ -162,7 +162,7 @@ export default function App() {
     },
     {
       q: "What ages work best?",
-      a: "Designed for kids ages ~7–11. Parents can adapt the same ideas for older siblings too.",
+      a: "Designed for elementary-aged families (best for ages ~7–10). Parents can adapt the same ideas for older siblings too.",
     },
     {
       q: "What if we miss a week?",
@@ -263,11 +263,11 @@ export default function App() {
                 <div className="flex flex-wrap gap-2">
                   <Badge>4-week series</Badge>
                   <Badge>Parent + child</Badge>
-                  <Badge>No screens</Badge>
+                  <Badge>Minimal screens</Badge>
                 </div>
 
                 <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
-                  Raise tech-literate kids—without screens running the home.
+                  Raise tech-literate kids—so your family can stay in control.
                 </h1>
                 <p className="mt-4 text-base leading-relaxed text-white/80 sm:text-lg">
                   Helping families understand how technology shapes attention, choices, and values.
@@ -308,12 +308,12 @@ export default function App() {
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <img
                   src="/tech-literacy-workshop/strip-1.png"
-                  alt="Family tech values card on the fridge"
+                  alt="Family tech values plan on the fridge"
                   className="h-auto w-full"
                   loading="lazy"
                 />
                 <figcaption className="px-4 py-3 text-sm text-white/70">
-                  <span className="font-semibold text-white">Make it practical.</span> A fridge-friendly values card your family actually uses.
+                  <span className="font-semibold text-white">Make it practical.</span> A fridge-friendly values plan your family actually uses.
                 </figcaption>
               </figure>
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
@@ -335,7 +335,7 @@ export default function App() {
                   loading="lazy"
                 />
                 <figcaption className="px-4 py-3 text-sm text-white/70">
-                  <span className="font-semibold text-white">Make it calm.</span> Simple defaults and routines that reduce fights.
+                  <span className="font-semibold text-white">Make it calm.</span> Simple defaults and routines that reduce friction.
                 </figcaption>
               </figure>
             </div>
@@ -345,7 +345,7 @@ export default function App() {
         <Section id="what" eyebrow="Overview" title="What it is">
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="A 4-week series">
-              Four sessions designed to build foundations—not random tips. You’ll leave with shared vocabulary about technology and a written family tech values plan.
+              Four sessions designed to build foundations—not random tips. You’ll leave with shared vocabulary about technology and a written family tech plan you can use at home.
             </Card>
             <Card title="Values-first (not fear-first)">
               We focus on calm, practical choices: what job a tool is doing, whether it’s doing that job
@@ -356,7 +356,7 @@ export default function App() {
 
         <Section id="who" eyebrow="Audience" title="Who it’s for">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Card title="Elementary Aged Kids ~7–10">
+            <Card title="Elementary-aged kids (best for ages ~7–10)">
               Activities are hands-on and age-appropriate. Older kids get optional “stretch” prompts.
             </Card>
             <Card title="Parents (required)">
@@ -372,18 +372,21 @@ export default function App() {
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="Core ideas">
               <ul className="mt-2 list-disc space-y-2 pl-5">
-                <li>Technology is tools made by people for a job.</li>
-                <li>Interfaces guide behavior (buttons, menus, autoplay).</li>
-                <li>Systems and automation: simple steps can look “smart.”</li>
-                <li>Data basics: what information tools collect and why it matters.</li>
-                <li>Family rules that reduce conflict and protect attention.</li>
+                <li>Technology is a tool made by people to do a job.</li>
+                <li>Systems turn inputs into outputs by following rules.</li>
+                <li>Automation is a system on repeat (like autoplay).</li>
+                <li>Accounts help apps remember you; settings and defaults help you stay in control (data + privacy).</li>
+                <li>User interfaces use patterns—some help, some pull (attention traps).</li>
+                <li>Boundaries and defaults help families stay in control.</li>
               </ul>
             </Card>
             <Card title="Take-home outcomes">
               <ul className="mt-2 list-disc space-y-2 pl-5">
-                <li>A “Family Tech Values Plan" for your fridge.</li>
-                <li>A shared set of boundary defaults (accounts, apps, autoplay, etc.).</li>
-                <li>Practical language to de-escalate screen arguments.</li>
+                <li>A Family Tech Values Plan (fridge-friendly).</li>
+                <li>An Automation Plan (one to add, one to turn off).</li>
+                <li>An Account + Privacy Plan (data, settings, defaults).</li>
+                <li>A Boundary Plan (time/place/content/friction).</li>
+                <li>A combined Final Family Tech Plan.</li>
               </ul>
             </Card>
           </div>
@@ -393,16 +396,16 @@ export default function App() {
         <Section id="weeks" eyebrow="4 sessions" title="Week-by-week">
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <Card title="Week 1: Tools made by people">
-              Tech is a tool with a job. Build your Family Tech Values Card.
+              Tech is a tool with a job. Build your Family Tech Values Plan.
             </Card>
             <Card title="Week 2: Systems & automation">
-              How simple steps create “smart.” Spot inputs → rules → outputs.
+              How "smart" can be simple. Spot inputs → rules → outputs.
             </Card>
             <Card title="Week 3: Data & accounts">
-              Kid-safe basics on data, logins, and why “default settings” matter.
+              Kid-safe basics on data, accounts, privacy, and why default settings matter.
             </Card>
-            <Card title="Week 4: Interfaces & habits">
-              Design choices shape behavior. Build calm boundaries that stick.
+            <Card title="Week 4: Interfaces & attention traps">
+              Learn UI handles + patterns (some help, some pull) and build boundaries that stick.
             </Card>
           </div>
         </Section>
