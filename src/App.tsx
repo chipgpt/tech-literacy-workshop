@@ -313,7 +313,7 @@ export default function App() {
                   loading="lazy"
                 />
                 <figcaption className="px-4 py-3 text-sm text-white/70">
-                  <span className="font-semibold text-white">Make it practical.</span> A fridge-friendly values plan your family actually uses.
+                  <span className="font-semibold text-white">Make it practical.</span> A fridge-friendly tech values plan your family actually uses.
                 </figcaption>
               </figure>
               <figure className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
@@ -335,7 +335,7 @@ export default function App() {
                   loading="lazy"
                 />
                 <figcaption className="px-4 py-3 text-sm text-white/70">
-                  <span className="font-semibold text-white">Make it calm.</span> Simple defaults and routines that reduce friction.
+                  <span className="font-semibold text-white">Make it calm.</span> Simple defaults and boundaries that reduce friction.
                 </figcaption>
               </figure>
             </div>
