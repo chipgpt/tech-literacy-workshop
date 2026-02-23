@@ -195,10 +195,13 @@ export default function App() {
       <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur">
         <Container className="flex h-16 items-center justify-between">
           <a href="#top" className="flex items-center gap-3 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-sky-400/15 ring-1 ring-sky-400/30">
-              <span className="text-sm font-bold text-sky-200" aria-hidden>
-                TL
-              </span>
+            <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-white/5 ring-1 ring-white/10">
+              <img
+                src="/tech-literacy-workshop/ftl-logo.png"
+                alt="Family Tech Literacy Workshop"
+                className="h-9 w-9 object-contain"
+                loading="eager"
+              />
             </div>
             <div className="leading-tight">
               <p className="text-sm font-semibold">Family Tech Literacy Workshop</p>
