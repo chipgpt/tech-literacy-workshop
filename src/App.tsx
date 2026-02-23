@@ -197,7 +197,7 @@ export default function App() {
           <a href="#top" className="flex items-center gap-3 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40">
             <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-white/5 ring-1 ring-white/10">
               <img
-                src="/tech-literacy-workshop/ftl-logo.png"
+                src="/tech-literacy-workshop/ftl-logo-light.png"
                 alt="Family Tech Literacy Workshop"
                 className="h-9 w-9 object-contain"
                 loading="eager"
