@@ -404,7 +404,7 @@ export default function App() {
             <Card title="Week 3: Data & accounts">
               Kid-safe basics on data, accounts, privacy, and why default settings matter.
             </Card>
-            <Card title="Week 4: Interfaces & attention traps">
+            <Card title="Week 4: User Interfaces & patterns">
               Learn UI handles + patterns (some help, some pull) and build boundaries that stick.
             </Card>
           </div>
@@ -418,11 +418,11 @@ export default function App() {
             <Card title="Parent + child (no drop-off)">
               Families participate together. That’s the whole point.
             </Card>
-            <Card title="No lectures">
-              This isn’t a scare talk or a screen-shaming session—it's practical and calm.
+            <Card title="Calm and practical">
+              No scare talk. No guilt. No screen shaming—just clear explanations and hands-on activities.
             </Card>
             <Card title="Small group">
-              Small, interactive group so discussion stays human and kids stay engaged.
+              Interactive, discussion-based sessions so kids stay engaged and families leave with a real plan.
             </Card>
           </div>
         </Section>
@@ -511,7 +511,6 @@ export default function App() {
                   loading="lazy"
                 />
               </div>
-              <p className="mt-2 text-xs text-white/55">Headshot placeholder</p>
             </div>
             <div className="max-w-2xl text-white/80">
               <p className="text-base">
