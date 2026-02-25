@@ -166,7 +166,7 @@ export default function App() {
     },
     {
       q: "What if we miss a week?",
-      a: "If you miss a session, we’ll do our best to share the take-home materials. The backup date (Mar 29, 2026) is intended in case a class needs to be rescheduled—not as an extra catch-up day.",
+      a: "If you miss a session, we’ll do our best to share the take-home materials. The backup date (Apr 5, 2026) is intended in case a class needs to be rescheduled—not as an extra catch-up day.", 
     },
     {
       q: "What’s your refund / cancellation policy?",
@@ -241,7 +241,7 @@ export default function App() {
           <Container className="flex items-center justify-between gap-3">
             <div className="min-w-0">
               <p className="truncate text-sm font-semibold">Family Tech Literacy Workshop</p>
-              <p className="truncate text-xs text-white/60">Sundays in March 2026 • 2pm</p>
+              <p className="truncate text-xs text-white/60">Sundays in Spring 2026 • 2pm</p>
             </div>
             <a
               href="#register"
@@ -278,7 +278,7 @@ export default function App() {
 
                 {/* #2: fast decision info */}
                 <p className="mt-4 text-sm text-white/70">
-                  Sundays in March 2026 • 2:00–3:15pm • $149 first child + $100 sibling
+                  Sundays in Spring 2026 • 2:00–3:15pm • $149 first child + $100 sibling
                 </p>
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -430,15 +430,15 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="schedule" eyebrow="March 2026" title="Dates & time">
+        <Section id="schedule" eyebrow="Spring 2026" title="Dates & time">
           <div className="grid gap-4 sm:grid-cols-2">
             <Card title="Series schedule">
               <ul className="mt-2 list-disc space-y-1 pl-5">
                 <li><span className="font-semibold text-white">Sundays</span> • 2:00–3:15pm</li>
-                <li><span className="font-semibold text-white">4 weeks</span> • Mar 1, 8, 15, 22 (2026)</li>
+                <li><span className="font-semibold text-white">4 weeks</span> • Mar 8, 15, 22, 29 (2026)</li>
               </ul>
               <p className="mt-3 text-white/70">
-                Backup date: <span className="font-semibold text-white">Mar 29, 2026</span> (only if a class needs
+                Backup date: <span className="font-semibold text-white">Apr 5, 2026</span> (only if a class needs
                 to be rescheduled).
               </p>
             </Card>
